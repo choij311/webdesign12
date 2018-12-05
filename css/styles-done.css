@@ -1,0 +1,118 @@
+/*
+The default style sheet for the entire site.
+*/
+
+
+/*Reset browser's own internal CSS stylesheet before reading this file. */
+/*Note that this approach is no longer recommended. Use a reset.css file instead.*/
+
+
+body {
+    font-family: 'Notable', sans-serif;
+    background-color: whitesmoke;
+    
+    background-attachment: fixed;
+    background-image: url("../img/gallery_image1.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    width:1200px;
+}
+
+header {
+    font-family: 'Notable', sans-serif;
+    font-size: 250%;
+    background-color: ghostwhite;
+    background-image: url(../img/1.gif);
+    min-height: 800px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+h1 {
+    font-size: 3.1875em;
+  font-family: Lightmorning;
+  font-size:140px;
+  padding-top: 60px;
+   
+}
+
+h2 {
+    font-family: 'Libre Barcode 128', cursive;
+    font-size: 50px;
+    padding: 30px;
+}
+ 
+nav {
+    margin-left: 160px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+li { float:left; 
+    margin-top: 30px;
+    margin-right: 25px;
+     width: 200px; 
+}
+
+
+ 
+.main-nav,
+.sub-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+main-nav li {
+    font-family: 'Notable', sans-serif;
+    color: black;
+    font-size: 1.5em;
+    line-height: 50px;
+    float: left;
+    margin-right :25px;
+}
+
+.main-nav li a {
+    color: black;
+    display: block;
+    text-decoration: none;
+}
+
+.main-nav li a:hover {
+    background-color: black;
+    transition: background-color .5s;
+}
+
+
+.main-nav li .sub-nav li {
+    display: none;
+
+}
+
+ .main-nav li:hover .sub-nav li {
+    display: block; 
+    
+}
+
+main {
+    min-height: 250px;
+}
+footer {
+    clear: both;
+    text-align: center;
+}
+
+
+
+
